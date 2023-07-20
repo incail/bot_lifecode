@@ -7,7 +7,7 @@ kb = InlineKeyboardMarkup(
             InlineKeyboardButton('Гайд', callback_data='guide')
         ],
         [
-            InlineKeyboardButton('Архив кодера', callback_data='archive')
+            InlineKeyboardButton('Курсы', callback_data='archive')
         ]
     ]
 
@@ -16,7 +16,7 @@ kb = InlineKeyboardMarkup(
 kb_check = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton('Подписаться', url='https://t.me/l1fecode')
+            InlineKeyboardButton('Подписаться', url='https://t.me/codel1fe')
         ],
         [
             InlineKeyboardButton('Проверить', callback_data='check')
