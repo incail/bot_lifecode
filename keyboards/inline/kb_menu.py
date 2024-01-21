@@ -12,9 +12,9 @@ kb = InlineKeyboardMarkup(
         [
             InlineKeyboardButton('Книги', callback_data='book')
         ],
-        [
-            InlineKeyboardButton('Premium Code', callback_data='premium_code')
-        ],
+        # [
+        #     InlineKeyboardButton('Premium Code', callback_data='premium_code')
+        # ],
     ]
 
 )
